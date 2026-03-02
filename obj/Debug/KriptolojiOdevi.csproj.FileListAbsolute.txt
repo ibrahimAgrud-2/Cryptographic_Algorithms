@@ -1,0 +1,10 @@
+C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\KriptolojiOdevi.exe.config
+C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\KriptolojiOdevi.exe
+C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\KriptolojiOdevi.pdb
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.csproj.AssemblyReference.cache
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmMain.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.Properties.Resources.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.csproj.GenerateResource.cache
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.exe
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.pdb
