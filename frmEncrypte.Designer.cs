@@ -36,6 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // guna2TextBox1
@@ -68,7 +70,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Tan;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(537, 567);
+            this.guna2Button1.Location = new System.Drawing.Point(569, 617);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(227, 76);
             this.guna2Button1.TabIndex = 5;
@@ -83,7 +85,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1309, 60);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Decrypt-Encrypt Text";
+            this.label1.Text = "Encrypt Text";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -120,9 +122,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(773, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 26);
+            this.label3.Size = new System.Drawing.Size(157, 26);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Key";
+            this.label3.Text = "Encrypted Text";
             // 
             // guna2ComboBox1
             // 
@@ -156,12 +158,43 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Encryption Options";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(161, 484);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 26);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Key";
+            // 
+            // guna2TextBox3
+            // 
+            this.guna2TextBox3.BorderRadius = 13;
+            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox3.DefaultText = "";
+            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox3.Location = new System.Drawing.Point(152, 514);
+            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox3.Name = "guna2TextBox3";
+            this.guna2TextBox3.PlaceholderText = "";
+            this.guna2TextBox3.SelectedText = "";
+            this.guna2TextBox3.Size = new System.Drawing.Size(411, 59);
+            this.guna2TextBox3.TabIndex = 12;
+            // 
             // frmEncrypte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1309, 768);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.guna2TextBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.label3);
@@ -189,5 +222,7 @@
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
     }
 }

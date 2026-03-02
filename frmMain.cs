@@ -22,5 +22,19 @@ namespace KriptolojiOdevi
             Form frm = new frmEncrypte();
             frm.ShowDialog();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            
+                Form frm = new frmDecrypt();
+                frm.ShowDialog();
+            }
+
+        private void btnSendEmail_Click(object sender, EventArgs e)
+        {
+
+            Form frm = new frmSendEmail();
+            frm.ShowDialog();
+        }
     }
 }

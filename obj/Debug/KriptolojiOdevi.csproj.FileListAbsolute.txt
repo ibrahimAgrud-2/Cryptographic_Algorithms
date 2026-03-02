@@ -8,3 +8,9 @@ C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.csproj.Gen
 C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.csproj.CoreCompileInputs.cache
 C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.exe
 C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.pdb
+C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\Guna.UI2.dll
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.exe.config
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmDecrypt.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmEncrypte.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmSendEmail.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\Kriptolo.29D9A2B4.Up2Date
