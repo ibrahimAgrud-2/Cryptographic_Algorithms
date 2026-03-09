@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KriptolojiOdevi", "KriptolojiOdevi.csproj", "{846539DB-7323-4C46-B099-054B55483F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt", "..\Encrypt\Encrypt.csproj", "{0560C2B9-9F05-436F-9EBA-B950A2FB5726}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decrypt", "Decrypt\Decrypt.csproj", "{79F68CD8-3B47-4DC2-B89D-B16787847903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decrypt", "..\Decrypt\Decrypt.csproj", "{79F68CD8-3B47-4DC2-B89D-B16787847903}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt", "Encrypt\Encrypt.csproj", "{0560C2B9-9F05-436F-9EBA-B950A2FB5726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{846539DB-7323-4C46-B099-054B55483F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{846539DB-7323-4C46-B099-054B55483F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{846539DB-7323-4C46-B099-054B55483F0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79F68CD8-3B47-4DC2-B89D-B16787847903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79F68CD8-3B47-4DC2-B89D-B16787847903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F68CD8-3B47-4DC2-B89D-B16787847903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F68CD8-3B47-4DC2-B89D-B16787847903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0560C2B9-9F05-436F-9EBA-B950A2FB5726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

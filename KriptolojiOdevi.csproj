@@ -143,11 +143,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Decrypt\Decrypt.csproj">
+    <ProjectReference Include="Decrypt\Decrypt.csproj">
       <Project>{79f68cd8-3b47-4dc2-b89d-b16787847903}</Project>
       <Name>Decrypt</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Encrypt\Encrypt.csproj">
+    <ProjectReference Include="Encrypt\Encrypt.csproj">
       <Project>{0560c2b9-9f05-436f-9eba-b950a2fb5726}</Project>
       <Name>Encrypt</Name>
     </ProjectReference>
