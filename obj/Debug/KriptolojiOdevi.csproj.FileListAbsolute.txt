@@ -43,3 +43,5 @@ C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\System.Threading.Tasks.Ext
 C:\Users\ibrah\source\repos\KriptolojiOdevi\bin\Debug\System.ValueTuple.xml
 C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmHillDescrypt.resources
 C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmHillEncrypt.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmDortKare.resources
+C:\Users\ibrah\source\repos\KriptolojiOdevi\obj\Debug\KriptolojiOdevi.frmDortKareDecrypt.resources

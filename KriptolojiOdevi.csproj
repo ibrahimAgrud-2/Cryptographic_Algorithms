@@ -87,6 +87,18 @@
     <Compile Include="frmDecrypt.Designer.cs">
       <DependentUpon>frmDecrypt.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDortKare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDortKare.Designer.cs">
+      <DependentUpon>frmDortKare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDortKareDecrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDortKareDecrypt.Designer.cs">
+      <DependentUpon>frmDortKareDecrypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEncrypte.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmDecrypt.resx">
       <DependentUpon>frmDecrypt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDortKare.resx">
+      <DependentUpon>frmDortKare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDortKareDecrypt.resx">
+      <DependentUpon>frmDortKareDecrypt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEncrypte.resx">
       <DependentUpon>frmEncrypte.cs</DependentUpon>

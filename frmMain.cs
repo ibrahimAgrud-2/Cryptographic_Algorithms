@@ -17,11 +17,6 @@ namespace KriptolojiOdevi
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            Form frm = new frmHillEncrypt();
-            frm.ShowDialog();
-        }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
@@ -34,6 +29,25 @@ namespace KriptolojiOdevi
         {
 
             Form frm = new frmSendEmail();
+            frm.ShowDialog();
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            Form frm = new frmHillEncrypt();
+            frm.ShowDialog();
+
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            Form frm = new frmDortKare();
+            frm.ShowDialog();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDortKareDecrypt();
             frm.ShowDialog();
         }
     }
