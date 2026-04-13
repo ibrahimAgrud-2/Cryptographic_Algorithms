@@ -47,8 +47,22 @@ namespace KriptolojiOdevi
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            Form frm = new frmDortKareDecrypt();
+            Form frm = new clsVigenereDcrypt();
             frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frm = new  frmVigenere();
+            frm.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form frm = new clsVigenereDcrypt();
+            frm.ShowDialog();
+
+
         }
     }
 }
