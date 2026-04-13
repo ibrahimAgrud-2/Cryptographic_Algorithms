@@ -19,14 +19,14 @@ namespace KriptolojiOdevi
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form frm = new frmEncrypte();
+            Form frm = new frmHillEncrypt();
             frm.ShowDialog();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             
-                Form frm = new frmDecrypt();
+                Form frm = new frmHillDescrypt();
                 frm.ShowDialog();
             }
 

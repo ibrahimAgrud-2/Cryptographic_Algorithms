@@ -93,6 +93,18 @@
     <Compile Include="frmEncrypte.Designer.cs">
       <DependentUpon>frmEncrypte.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHillDescrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHillDescrypt.Designer.cs">
+      <DependentUpon>frmHillDescrypt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHillEncrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHillEncrypt.Designer.cs">
+      <DependentUpon>frmHillEncrypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +124,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEncrypte.resx">
       <DependentUpon>frmEncrypte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHillDescrypt.resx">
+      <DependentUpon>frmHillDescrypt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHillEncrypt.resx">
+      <DependentUpon>frmHillEncrypt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
