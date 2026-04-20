@@ -78,5 +78,12 @@ namespace KriptolojiOdevi
                 guna2Button1.Enabled = true; // İşlem bittiğinde butonu tekrar aktif ediyoruz
             }
         }
+
+        private void frmSendEmail_Load(object sender, EventArgs e)
+        {
+            txtFrom.Text = "ibrahimakkurt566@gmail.com"; 
+            txtTo.Text =  "hasaneleyvi090@gmail.com";
+
+        }
     }
 }

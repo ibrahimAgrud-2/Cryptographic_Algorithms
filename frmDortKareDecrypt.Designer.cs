@@ -37,6 +37,7 @@
             this.btnDecrypt = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnSendEmail = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // lblPlain
@@ -116,12 +117,30 @@
             this.txtResult.Size = new System.Drawing.Size(400, 100);
             this.txtResult.TabIndex = 17;
             // 
+            // btnSendEmail
+            // 
+            this.btnSendEmail.BorderRadius = 13;
+            this.btnSendEmail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendEmail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSendEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSendEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSendEmail.FillColor = System.Drawing.Color.Tan;
+            this.btnSendEmail.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.btnSendEmail.ForeColor = System.Drawing.Color.White;
+            this.btnSendEmail.Location = new System.Drawing.Point(385, 461);
+            this.btnSendEmail.Name = "btnSendEmail";
+            this.btnSendEmail.Size = new System.Drawing.Size(219, 68);
+            this.btnSendEmail.TabIndex = 18;
+            this.btnSendEmail.Text = "Send Email";
+            this.btnSendEmail.Click += new System.EventHandler(this.btnSendEmail_Click);
+            // 
             // frmDortKareDecrypt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1015, 607);
+            this.Controls.Add(this.btnSendEmail);
             this.Controls.Add(this.lblPlain);
             this.Controls.Add(this.txtTextToEncrypt);
             this.Controls.Add(this.lblKey1);
@@ -152,5 +171,6 @@
         private System.Windows.Forms.Button btnDecrypt;
         private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.TextBox txtResult;
+        private Guna.UI2.WinForms.Guna2Button btnSendEmail;
     }
 }

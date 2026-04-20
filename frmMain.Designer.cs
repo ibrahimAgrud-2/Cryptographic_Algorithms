@@ -64,7 +64,7 @@
             this.btnDecrypte.FillColor = System.Drawing.Color.Tan;
             this.btnDecrypte.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnDecrypte.ForeColor = System.Drawing.Color.White;
-            this.btnDecrypte.Location = new System.Drawing.Point(15, 57);
+            this.btnDecrypte.Location = new System.Drawing.Point(87, 66);
             this.btnDecrypte.Name = "btnDecrypte";
             this.btnDecrypte.Size = new System.Drawing.Size(209, 81);
             this.btnDecrypte.TabIndex = 7;
@@ -91,8 +91,8 @@
             // guna2GroupBox1
             // 
             this.guna2GroupBox1.BorderColor = System.Drawing.Color.Tan;
-            this.guna2GroupBox1.Controls.Add(this.guna2Button3);
-            this.guna2GroupBox1.Controls.Add(this.btnDecrypte);
+            this.guna2GroupBox1.Controls.Add(this.guna2Button1);
+            this.guna2GroupBox1.Controls.Add(this.guna2Button2);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.Tan;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -112,7 +112,7 @@
             this.guna2Button3.FillColor = System.Drawing.Color.Tan;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(15, 175);
+            this.guna2Button3.Location = new System.Drawing.Point(87, 186);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(209, 81);
             this.guna2Button3.TabIndex = 10;
@@ -129,7 +129,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Tan;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(19, 64);
+            this.guna2Button1.Location = new System.Drawing.Point(24, 43);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(209, 81);
             this.guna2Button1.TabIndex = 8;
@@ -139,8 +139,8 @@
             // guna2GroupBox2
             // 
             this.guna2GroupBox2.BorderColor = System.Drawing.Color.Tan;
-            this.guna2GroupBox2.Controls.Add(this.guna2Button2);
-            this.guna2GroupBox2.Controls.Add(this.guna2Button1);
+            this.guna2GroupBox2.Controls.Add(this.btnDecrypte);
+            this.guna2GroupBox2.Controls.Add(this.guna2Button3);
             this.guna2GroupBox2.CustomBorderColor = System.Drawing.Color.Tan;
             this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -160,7 +160,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.Tan;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(29, 175);
+            this.guna2Button2.Location = new System.Drawing.Point(24, 151);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(209, 81);
             this.guna2Button2.TabIndex = 9;
