@@ -45,7 +45,7 @@ namespace KriptolojiOdevi
             // lblPlain
             // 
             this.lblPlain.AutoSize = true;
-            this.lblPlain.Location = new System.Drawing.Point(321, 66);
+            this.lblPlain.Location = new System.Drawing.Point(321, 26);
             this.lblPlain.Name = "lblPlain";
             this.lblPlain.Size = new System.Drawing.Size(110, 26);
             this.lblPlain.TabIndex = 0;
@@ -53,10 +53,10 @@ namespace KriptolojiOdevi
             // 
             // txtTextToEncrypt
             // 
-            this.txtTextToEncrypt.Location = new System.Drawing.Point(321, 96);
+            this.txtTextToEncrypt.Location = new System.Drawing.Point(321, 55);
             this.txtTextToEncrypt.Multiline = true;
             this.txtTextToEncrypt.Name = "txtTextToEncrypt";
-            this.txtTextToEncrypt.Size = new System.Drawing.Size(400, 80);
+            this.txtTextToEncrypt.Size = new System.Drawing.Size(561, 121);
             this.txtTextToEncrypt.TabIndex = 1;
             // 
             // lblKey1
@@ -78,7 +78,7 @@ namespace KriptolojiOdevi
             // lblKey2
             // 
             this.lblKey2.AutoSize = true;
-            this.lblKey2.Location = new System.Drawing.Point(541, 196);
+            this.lblKey2.Location = new System.Drawing.Point(732, 196);
             this.lblKey2.Name = "lblKey2";
             this.lblKey2.Size = new System.Drawing.Size(106, 26);
             this.lblKey2.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace KriptolojiOdevi
             // 
             // txtKey2
             // 
-            this.txtKey2.Location = new System.Drawing.Point(541, 226);
+            this.txtKey2.Location = new System.Drawing.Point(732, 226);
             this.txtKey2.Name = "txtKey2";
             this.txtKey2.Size = new System.Drawing.Size(150, 32);
             this.txtKey2.TabIndex = 5;
@@ -95,7 +95,7 @@ namespace KriptolojiOdevi
             // 
             this.btnEncrypt.Location = new System.Drawing.Point(321, 286);
             this.btnEncrypt.Name = "btnEncrypt";
-            this.btnEncrypt.Size = new System.Drawing.Size(370, 40);
+            this.btnEncrypt.Size = new System.Drawing.Size(561, 40);
             this.btnEncrypt.TabIndex = 6;
             this.btnEncrypt.Text = "Şifrele";
             this.btnEncrypt.Click += new System.EventHandler(this.btnEncrypt_Click_1);
@@ -116,7 +116,7 @@ namespace KriptolojiOdevi
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(400, 100);
+            this.txtResult.Size = new System.Drawing.Size(561, 206);
             this.txtResult.TabIndex = 8;
             // 
             // btnSendEmail
@@ -129,12 +129,11 @@ namespace KriptolojiOdevi
             this.btnSendEmail.FillColor = System.Drawing.Color.Tan;
             this.btnSendEmail.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnSendEmail.ForeColor = System.Drawing.Color.White;
-            this.btnSendEmail.Location = new System.Drawing.Point(403, 502);
+            this.btnSendEmail.Location = new System.Drawing.Point(466, 605);
             this.btnSendEmail.Name = "btnSendEmail";
             this.btnSendEmail.Size = new System.Drawing.Size(219, 68);
             this.btnSendEmail.TabIndex = 9;
             this.btnSendEmail.Text = "Send Email";
-            this.btnSendEmail.Click += new System.EventHandler(this.btnSendEmail_Click);
             // 
             // frmDortKare
             // 

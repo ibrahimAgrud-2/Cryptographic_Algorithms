@@ -9,8 +9,8 @@ namespace KriptolojiOdevi
     {
         private const string STANDART_ALFABE = "ABCDEFGHIJKLMNOPRSTUVYZÇÖŞ";
 
-        // Türkçe karakter pozisyonlarını saklar — deşifreleme için paylaşılır
         public static Dictionary<int, char> TurkceKarakterHaritasi = new Dictionary<int, char>();
+        public static int OrijinalHarfSayisi = 0;
 
         public frmDortKare()
         {
@@ -46,31 +46,23 @@ namespace KriptolojiOdevi
 
             metin = metin.ToUpper(new System.Globalization.CultureInfo("tr-TR"));
 
-            List<int> boslukPozisyonlari = new List<int>();
-            for (int i = 0; i < metin.Length; i++)
-                if (metin[i] == ' ')
-                    boslukPozisyonlari.Add(i);
-
+            // Boşlukları ve harf olmayan karakterleri sil
             string harfler = "";
             foreach (char c in metin)
                 if (char.IsLetter(c))
                     harfler += c;
 
-            // Türkçe karakterleri normalize et, pozisyonları haritaya kaydet
+            // Türkçe karakterleri normalize et, pozisyonları kaydet
             TurkceKarakterHaritasi.Clear();
             harfler = NormalizeVeKaydet(harfler);
+
+            // Orijinal harf sayısını sakla
+            OrijinalHarfSayisi = harfler.Length;
 
             if (harfler.Length % 2 != 0)
                 harfler += 'Z';
 
-            string sifreli = Sifrele(harfler, kare1, kare2, kare3, kare4);
-
-            System.Text.StringBuilder sb = new System.Text.StringBuilder(sifreli);
-            foreach (int pos in boslukPozisyonlari)
-                if (pos <= sb.Length)
-                    sb.Insert(pos, ' ');
-
-            return sb.ToString();
+            return Sifrele(harfler, kare1, kare2, kare3, kare4);
         }
 
         private string NormalizeVeKaydet(string metin)
@@ -155,19 +147,12 @@ namespace KriptolojiOdevi
             for (int i = 0; i < 5; i++)
                 for (int j = 0; j < 5; j++)
                     if (kare[i, j] == harf)
-                    {
-                        satir = i; sutun = j; return;
-                    }
+                    { satir = i; sutun = j; return; }
+
             if (satir == -1)
                 throw new Exception($"'{harf}' harfi kare içinde bulunamadı!");
         }
 
         private void btnEncrypt_Click_1(object sender, EventArgs e) => btnEncrypt_Click(sender, e);
-
-        private void btnSendEmail_Click(object sender, EventArgs e)
-        {
-            Form frm = new frmSendEmail();
-            frm.ShowDialog();
-        }
     }
 }

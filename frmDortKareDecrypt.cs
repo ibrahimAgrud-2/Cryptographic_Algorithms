@@ -45,11 +45,7 @@ namespace KriptolojiOdevi
 
             metin = metin.ToUpper(new System.Globalization.CultureInfo("tr-TR"));
 
-            List<int> boslukPozisyonlari = new List<int>();
-            for (int i = 0; i < metin.Length; i++)
-                if (metin[i] == ' ')
-                    boslukPozisyonlari.Add(i);
-
+            // Boşlukları ve harf olmayan karakterleri sil
             string harfler = "";
             foreach (char c in metin)
                 if (char.IsLetter(c))
@@ -64,15 +60,14 @@ namespace KriptolojiOdevi
 
             string duzMetin = Desifrele(harfler, kare1, kare2, kare3, kare4);
 
-            // Şifreleme formundan haritayı al ve Türkçe karakterleri geri yükle
+            // Sondaki Z dolgusunu kes
+            if (duzMetin.Length > frmDortKare.OrijinalHarfSayisi)
+                duzMetin = duzMetin.Substring(0, frmDortKare.OrijinalHarfSayisi);
+
+            // Türkçe karakterleri geri yükle
             duzMetin = TurkceleriGeriYukle(duzMetin, frmDortKare.TurkceKarakterHaritasi);
 
-            System.Text.StringBuilder sb = new System.Text.StringBuilder(duzMetin);
-            foreach (int pos in boslukPozisyonlari)
-                if (pos <= sb.Length)
-                    sb.Insert(pos, ' ');
-
-            return sb.ToString();
+            return duzMetin;
         }
 
         private string TurkceleriGeriYukle(string metin, Dictionary<int, char> harita)
@@ -143,19 +138,12 @@ namespace KriptolojiOdevi
             for (int i = 0; i < 5; i++)
                 for (int j = 0; j < 5; j++)
                     if (kare[i, j] == harf)
-                    {
-                        satir = i; sutun = j; return;
-                    }
+                    { satir = i; sutun = j; return; }
+
             if (satir == -1)
                 throw new Exception($"'{harf}' harfi kare içinde bulunamadı!");
         }
 
         private void btnDecrypt_Click_1(object sender, EventArgs e) => btnDecrypt_Click(sender, e);
-
-        private void btnSendEmail_Click(object sender, EventArgs e)
-        {
-            Form frm = new frmSendEmail();
-            frm.ShowDialog();
-        }
     }
 }

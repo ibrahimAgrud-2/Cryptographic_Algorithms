@@ -51,16 +51,16 @@
             // 
             // txtTextToEncrypt
             // 
-            this.txtTextToEncrypt.Location = new System.Drawing.Point(300, 59);
+            this.txtTextToEncrypt.Location = new System.Drawing.Point(273, 59);
             this.txtTextToEncrypt.Multiline = true;
             this.txtTextToEncrypt.Name = "txtTextToEncrypt";
-            this.txtTextToEncrypt.Size = new System.Drawing.Size(400, 80);
+            this.txtTextToEncrypt.Size = new System.Drawing.Size(596, 97);
             this.txtTextToEncrypt.TabIndex = 10;
             // 
             // lblKey1
             // 
             this.lblKey1.AutoSize = true;
-            this.lblKey1.Location = new System.Drawing.Point(300, 159);
+            this.lblKey1.Location = new System.Drawing.Point(271, 172);
             this.lblKey1.Name = "lblKey1";
             this.lblKey1.Size = new System.Drawing.Size(106, 26);
             this.lblKey1.TabIndex = 11;
@@ -68,7 +68,7 @@
             // 
             // txtKey1
             // 
-            this.txtKey1.Location = new System.Drawing.Point(300, 189);
+            this.txtKey1.Location = new System.Drawing.Point(271, 202);
             this.txtKey1.Name = "txtKey1";
             this.txtKey1.Size = new System.Drawing.Size(150, 32);
             this.txtKey1.TabIndex = 12;
@@ -76,7 +76,7 @@
             // lblKey2
             // 
             this.lblKey2.AutoSize = true;
-            this.lblKey2.Location = new System.Drawing.Point(520, 159);
+            this.lblKey2.Location = new System.Drawing.Point(719, 162);
             this.lblKey2.Name = "lblKey2";
             this.lblKey2.Size = new System.Drawing.Size(106, 26);
             this.lblKey2.TabIndex = 13;
@@ -84,16 +84,16 @@
             // 
             // txtKey2
             // 
-            this.txtKey2.Location = new System.Drawing.Point(520, 189);
+            this.txtKey2.Location = new System.Drawing.Point(719, 192);
             this.txtKey2.Name = "txtKey2";
             this.txtKey2.Size = new System.Drawing.Size(150, 32);
             this.txtKey2.TabIndex = 14;
             // 
             // btnDecrypt
             // 
-            this.btnDecrypt.Location = new System.Drawing.Point(300, 249);
+            this.btnDecrypt.Location = new System.Drawing.Point(273, 249);
             this.btnDecrypt.Name = "btnDecrypt";
-            this.btnDecrypt.Size = new System.Drawing.Size(370, 40);
+            this.btnDecrypt.Size = new System.Drawing.Size(596, 40);
             this.btnDecrypt.TabIndex = 15;
             this.btnDecrypt.Text = "Deşifrele";
             this.btnDecrypt.Click += new System.EventHandler(this.btnDecrypt_Click_1);
@@ -101,7 +101,7 @@
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(300, 309);
+            this.lblResult.Location = new System.Drawing.Point(268, 309);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(74, 26);
             this.lblResult.TabIndex = 16;
@@ -110,11 +110,11 @@
             // txtResult
             // 
             this.txtResult.BackColor = System.Drawing.Color.White;
-            this.txtResult.Location = new System.Drawing.Point(300, 339);
+            this.txtResult.Location = new System.Drawing.Point(271, 338);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(400, 100);
+            this.txtResult.Size = new System.Drawing.Size(598, 182);
             this.txtResult.TabIndex = 17;
             // 
             // btnSendEmail
@@ -127,12 +127,11 @@
             this.btnSendEmail.FillColor = System.Drawing.Color.Tan;
             this.btnSendEmail.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnSendEmail.ForeColor = System.Drawing.Color.White;
-            this.btnSendEmail.Location = new System.Drawing.Point(385, 461);
+            this.btnSendEmail.Location = new System.Drawing.Point(463, 527);
             this.btnSendEmail.Name = "btnSendEmail";
             this.btnSendEmail.Size = new System.Drawing.Size(219, 68);
             this.btnSendEmail.TabIndex = 18;
             this.btnSendEmail.Text = "Send Email";
-            this.btnSendEmail.Click += new System.EventHandler(this.btnSendEmail_Click);
             // 
             // frmDortKareDecrypt
             // 
